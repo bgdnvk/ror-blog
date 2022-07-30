@@ -30,8 +30,8 @@
 
 <%= form_with model: [ @article, @article.comments.build] do |form| %>
     <p>
-        <%= form.label :body %> <br>
-        <%= form.text_area :body %>
+        <%= form.label :commenter %> <br>
+        <%= form.text_area :commenter %>
     </p>
 
     <p>
